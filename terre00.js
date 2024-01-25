@@ -1,8 +1,9 @@
-// Création d'un tableau à deux éléments
+// Création d'un array à deux éléments
 var alphabet = ["abcdefghijklmnopqrstuvwxyz"," "]
 
 // Règle de la boucle - initialization;condition;increment
 for (var i=0;i<alphabet.length;i++)
 {
+// i affiche chaque éléments du array
 	console.log(alphabet[i])
 }
