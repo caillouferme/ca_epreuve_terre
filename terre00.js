@@ -1,9 +1,7 @@
-// Création d'un array à deux éléments
-var alphabet = ["abcdefghijklmnopqrstuvwxyz","\n"]
+let alphabet = [];
 
-// Règle de la boucle - initialization;condition;increment
-for (var i=0;i<alphabet.length;i++)
-{
-// i affiche chaque éléments du array
-	console.log(alphabet[i])
+for (let i = 97; i <= 122; i++) {
+  alphabet = alphabet + String.fromCharCode(i);
 }
+
+console.log(alphabet + '\n');
